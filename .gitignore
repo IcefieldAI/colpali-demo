@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Runtime state: last-source marker + cached PDF page images
+app_state/
+
+# Gradio cache / flagged data
+.gradio/
+flagged/
+
+# Local metrics override (optional, machine-specific)
+metrics.json
